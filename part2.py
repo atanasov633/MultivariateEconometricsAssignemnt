@@ -1,12 +1,11 @@
 # Assignment Multivariate Econometrics 
 # Group 23: Atanas Atanasov, Busra Turk, Ion Paraschos, Max Hugen
 
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Constant(s)
+# Constant(s) initialization
 VARIABLES = ('mean_rad', 'mean_tmn', 'NY.GDP.MKTP.KD', 'SP.POP.TOTL')
 TITLES = ('Annual average of monthly all-sky radiation (SSR) (watts per square metre)', 'Minimum of averages of monthly temperatures (degrees Celsius)', 'GDP (constant 2010 US$)', 'Population, total')
 
